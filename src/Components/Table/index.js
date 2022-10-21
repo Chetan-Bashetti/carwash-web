@@ -1,3 +1,4 @@
+/* eslint-disable array-callback-return */
 import React from 'react';
 import '../../Assets/CSS/Table/Table.css';
 
