@@ -1,0 +1,54 @@
+table {
+	border-collapse: collapse;
+	width: 100%;
+	height: fit-content;
+}
+.table-head-columns {
+	text-align: start;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-transform: capitalize;
+}
+.table-head {
+	position: sticky;
+	top: 0;
+	background: #42516e;
+	color: white;
+}
+td,
+th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+.status-data {
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-radius: 10px;
+	margin: 5px;
+	text-transform: capitalize;
+}
+.status-pending {
+	color: #f7866f;
+	background-color: #fef5f2;
+	border: 1px solid #f7866f;
+}
+.status-completed {
+	color: #3bb6a5;
+	background-color: #d9fac3;
+	border: 1px solid #278d0c;
+}
+.status-cancelled {
+	color: #c72332;
+	background-color: #f9e0e7;
+	border: 1px solid #c72332;
+}

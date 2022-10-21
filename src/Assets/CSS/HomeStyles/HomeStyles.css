@@ -1,0 +1,17 @@
+.Home-Main-Container {
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	overflow: hidden;
+}
+.Home-Components-Container {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	overflow: scroll;
+}
+.Home-Routes-Container {
+	display: flex;
+	flex: 1;
+	overflow: hidden;
+}

@@ -1,0 +1,10 @@
+.Users-Main-Container {
+	flex: 1;
+	display: flex;
+	margin: 1em;
+	overflow: hidden;
+}
+
+.loader {
+	color: rgb(66, 81, 110);
+}
